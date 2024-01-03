@@ -13,12 +13,15 @@ class User{
 
 }
 
-function TaskCreator(name, description){
+function taskCreator(name, description){
     let status = 'incompleted';
 
     function getName(){
         return name;
     }
 
-  
+    function getDescription(){
+        return description;
+    }
+
 }
