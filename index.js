@@ -10,8 +10,10 @@ class User{
         this.taskList.push(taskCreator(name, description));
     }
 
-    showAll(){
-
+    show(status){
+        console.log(this.taskList.filter(function(task){
+            task.status === status;
+        }));
     }
 
 }
