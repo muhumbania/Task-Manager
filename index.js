@@ -24,4 +24,16 @@ function taskCreator(name, description){
         return description;
     }
 
+    
+    function getStatus(){
+        return status;
+    }
+
+    return {
+        name : getName(),
+        description : getDescription(),
+        status : getStatus()
+    }
+  
+
 }
